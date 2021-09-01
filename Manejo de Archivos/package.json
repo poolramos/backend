@@ -1,0 +1,11 @@
+{
+  "name": "entregable",
+  "version": "1.0.0",
+  "description": "entregable archivos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "santiago homps",
+  "license": "ISC"
+}
