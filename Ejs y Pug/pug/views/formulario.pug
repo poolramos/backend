@@ -1,0 +1,12 @@
+extends index
+
+block partial
+    h2(style="text-align: center;")="Formulario para ingreso de productos"
+    form(action="/api/productos/" method="POST" class=".form-horizontal container pt-5")
+        label="Título:" 
+        input(type="text" name="title" id="title")
+        label="Precio:" 
+        input(type="number" name="price" id="price")
+        label="UrlImagen:" 
+        input(type="text" name="thumbnail" id="thumbnail")
+        button(class="btn btn-primary")="Enviar"
