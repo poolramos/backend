@@ -1,0 +1,20 @@
+{
+  "name": "d14-node_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./serverES5.js",
+    "tsc": "tsc ./src/index.ts -w",
+    "babel": "babel ./serverES6.js -o ./serverES5.js -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "typescript": "^4.3.5"
+  }
+}
